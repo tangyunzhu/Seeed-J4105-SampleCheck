@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/seeed/QA
+echo "000000" | sudo git pull
+cd /home/seeed/Flash_GPIO_Firmware_Linux
+echo "000000" | sudo git pull
