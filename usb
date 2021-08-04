@@ -1,0 +1,2 @@
+lsusb > log
+[ $(grep -o Bus log | wc -l) -eq 8 ] && echo " ------- USB  OK -----------"

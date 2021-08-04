@@ -1,0 +1,2 @@
+df -h > log 
+grep "/dev/mmcblk0" log > /dev/null && echo " ------- eMMc OK -----------"

@@ -1,0 +1,2 @@
+ifconfig enp3s0 > log 
+grep "192.168" log > /dev/null && echo " ------- enp3s0 OK ---------"

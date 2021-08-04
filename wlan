@@ -1,0 +1,1 @@
+ifconfig wlo2 > log && echo " ------- wlan OK -----------"
